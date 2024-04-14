@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d2558be-3dc6-46e4-ae9f-a0b8060dd4ea">
+  <producedTypes>
+    <objectType typeId="b088a279-069b-476b-91d2-23eb2f6d0922" valueTypeId="588c41ea-d3b8-4fbc-8362-b448dcea6f3c"/>
+    <refType typeId="46340632-8498-49b4-9d78-2ab62297a24d" valueTypeId="92835c74-4490-4829-9259-8d127cf23c43"/>
+    <selectionType typeId="acc5fef5-6567-4e84-aada-37a4fcfbbfd5" valueTypeId="51b34099-a047-447f-b26d-d595adbdf9af"/>
+    <listType typeId="d9f1b299-7419-41bc-9f7c-f6250dbfc876" valueTypeId="cb71f75b-020b-4eb3-a1ca-fd231d079559"/>
+    <managerType typeId="10dd4fc2-bec6-4fed-8786-7ece72f0e52c" valueTypeId="f3176585-16c9-4720-9c70-508be036fbd3"/>
+  </producedTypes>
+  <name>ВКМ_РаботыПоОбслуживанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы по обслуживанию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_РаботыПоОбслуживанию.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_РаботыПоОбслуживанию.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Работы по обслуживанию</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Работы по обслуживанию</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cda0b1c-83cf-4b3f-8f42-e3a190e5d2af">
+  <producedTypes>
+    <objectType typeId="67b21289-0b26-46d6-aa7e-31e3e57ff539" valueTypeId="15a1973e-3efc-4480-92c9-6caf2ff992f7"/>
+    <refType typeId="9299ff0f-3203-4151-99e2-898f8bd26cb4" valueTypeId="d4da4dc5-731a-43cc-9ec1-8582bc7a0b55"/>
+    <selectionType typeId="bd374f8e-a75d-41f8-8162-4db345518864" valueTypeId="02981301-728a-410b-ad1a-2fbe25474650"/>
+    <listType typeId="50f6f54c-be8e-4966-86c8-7a7291e79746" valueTypeId="d747aff4-495e-4cab-990c-abc4a12c4b7c"/>
+    <managerType typeId="a80c85e1-71c5-4a5d-b02b-73e4e3f7e24e" valueTypeId="fb3ddae2-7f94-4316-8fe4-2a50127b50b3"/>
+  </producedTypes>
+  <name>ВКМ_УчетныеЗаписиТелеграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи телеграмм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_УчетныеЗаписиТелеграмм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_УчетныеЗаписиТелеграмм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учетная запись телеграм</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учетные записи телеграм</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>35</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="40778059-8932-47a3-9e6a-c765025f8252">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
